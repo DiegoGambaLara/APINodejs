@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const router = express.Router();
 const UserSchema = require('./models/User.js')
 
-mongoose.connect("")
+
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
